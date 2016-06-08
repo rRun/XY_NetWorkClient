@@ -16,5 +16,6 @@ FOUNDATION_EXPORT const unsigned char XY_NetworkClientVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <XY_NetworkClient/PublicHeader.h>
 
+#import "BaseRequestClient.h"
 
 

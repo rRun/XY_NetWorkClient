@@ -16,7 +16,7 @@
 @implementation BaseRequestClient{
     NSMutableDictionary<NSString *,NSURLSessionDataTask *> *requestDic;//请求中的字典［url-request］;
 }
-@synthesize initParmas;
+@synthesize defaultParmas;
 
 #pragma mark - init
 //单例
@@ -30,10 +30,11 @@
 }
 
 -(id)init{
-    [super init];
+    self= [super init];
     //enter the code what u want to init;
     [self httpInit];
     requestDic = [NSMutableDictionary new];
+    return self;
 }
 
 
@@ -66,7 +67,7 @@
 
 #pragma mark - Pamras [参数]
 -(void)addInitParmarterWithKey:(NSString *)key Value:(id)value{
-    [self.initParmas ft_setObject:value forKey:key];
+    [self.defaultParmas ft_setObject:value forKey:key];
 }
 
 #pragma mark - async network[异步请求]
@@ -75,9 +76,12 @@
           successCall : (void(^)(NSDictionary *responseObject))success
            failedCall : (void (^)(NSError *error))failure{
     
+    NSLog(@"网络请求URL:%@",url);
+    
     //参数设置
-    NSMutableDictionary postParmas= [[NSMutableDictionary alloc]initWithDictionary:params];
-    [postParmas setDictionary:self.initParmas];
+    NSMutableDictionary *postParmas= [[NSMutableDictionary alloc]initWithDictionary:params];
+    [postParmas setDictionary:self.defaultParmas];
+    NSLog(@"网络请求参数为:%@",postParmas);
     
     //网络请求
     NSURLSessionDataTask *currentTask = [self.manager POST:url parameters:postParmas constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
@@ -88,16 +92,21 @@
         if (currentTask.state == NSURLSessionTaskStateCanceling) {
             return ;
         }
+        NSLog(@"网络请求成功:%@",responseObject);
         [requestDic removeObjectForKey:url];//移除对应的task
         
         NSInteger statusCode = [responseObject ft_numberForKey:self.statusKey];
         if (statusCode == self.rightCode) {
-            success(responseObject);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                success(responseObject);
+            });
+            
         }else{
             NSError *error = [self.errorAnlyzer desErrorCode:statusCode];
             if (!error) {
                 error = [NSError new];
             }
+            NSLog(@"网络请求失败:%@",[error localizedDescription]);
             dispatch_async(dispatch_get_main_queue(), ^{
                 failure(error);
             });
@@ -107,11 +116,14 @@
             return ;
         }
         [requestDic removeObjectForKey:url];//移除对应的task
-        NSError *error = [self.errorAnlyzer desErrorCode:error.code];
-        if (!error) {
-            error = error;
+        NSError *recError = [self.errorAnlyzer desErrorCode:error.code];
+        if (!recError) {
+            recError = error;
         }
-        failure(error);
+        NSLog(@"网络请求失败:%@",[error localizedDescription]);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            failure(recError);
+        });
     }];
     
     [requestDic ft_setObject:currentTask forKey:url];//添加对应的task
@@ -122,8 +134,8 @@
     NSLog(@"网络请求URL:%@",url);
     
     //参数设置
-    NSMutableDictionary postParmas= [[NSMutableDictionary alloc]initWithDictionary:params];
-    [postParmas setDictionary:self.initParmas];
+    NSMutableDictionary *postParmas= [[NSMutableDictionary alloc]initWithDictionary:params];
+    [postParmas setDictionary:self.defaultParmas];
     NSLog(@"网络请求参数为:%@",postParmas);
     
     //文件名解析
@@ -152,7 +164,9 @@
         
         NSInteger statusCode = [responseObject ft_numberForKey:self.statusKey];
         if (statusCode == self.rightCode) {
-            success(responseObject);
+            dispatch_async(dispatch_get_main_queue(), ^{
+                success(responseObject);
+            });
         }else{
             NSError *error = [self.errorAnlyzer desErrorCode:statusCode];
             if (!error) {
@@ -163,7 +177,7 @@
             });
         }
         
-        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:NSJSONWritingPrettyPrinted error:nil];
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:responseObject options:NSJSONWritingPrettyPrinted error:nil];
         NSString *jsonStr = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
         jsonStr = [jsonStr stringByReplacingOccurrencesOfString:@"\\/" withString:@"/"];//替换转换url时产生的\/斜杠
         NSLog(@"网络请求成功:\n:%@",jsonStr);
@@ -174,11 +188,13 @@
             return ;
         }
         [requestDic removeObjectForKey:url];//移除对应的task
-        NSError *error = [self.errorAnlyzer desErrorCode:error.code];
-        if (!error) {
-            error = error;
+        NSError *recError = [self.errorAnlyzer desErrorCode:error.code];
+        if (!recError) {
+            recError = error;
         }
-        failure(error);
+        dispatch_async(dispatch_get_main_queue(), ^{
+            failure(recError);
+        });
     }];
     
     [requestDic ft_setObject:currentTask forKey:url];//添加对应的task
@@ -198,10 +214,11 @@
 #pragma mark - sync network[同步请求]
 
 #pragma mark - Getter and Setter
--(NSMutableDictionary *)initParmas{
-    if (!initParmas) {
-        initParmas = [[NSMutableDictionary alloc]init];
+-(NSMutableDictionary *)defaultParmas{
+    if (!defaultParmas) {
+        defaultParmas = [[NSMutableDictionary alloc]init];
     }
+    return defaultParmas;
 }
 -(NSString *)statusKey{
     if (!_statusKey) {

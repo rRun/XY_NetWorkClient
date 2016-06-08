@@ -12,5 +12,6 @@
 -(void)des:(NSDictionary *)data{
 }
 -(NSDictionary *)unDes{
+    return nil;
 }
 @end

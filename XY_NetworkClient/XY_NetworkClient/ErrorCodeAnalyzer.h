@@ -12,9 +12,9 @@
 
 @property (nonatomic,strong)NSDictionary *errorDic;//错误码字典 ［int<错误码> ->string <错误码对应提示语句> ］
 
--(void)analyze:(NSString *)plistPath;//错误码的plist文件
--(void)analyze:(NSDictionary *)codeDic;//错误码数据字典
+-(void)analyzeFile:(NSString *)plistPath;//错误码的plist文件
+-(void)analyzeDic:(NSDictionary *)codeDic;//错误码数据字典
 
--(NSError *)desErrorCode:(NSInteger *)code;//根据错误码获取错误数据
+-(NSError *)desErrorCode:(NSInteger )code;//根据错误码获取错误数据
 
 @end

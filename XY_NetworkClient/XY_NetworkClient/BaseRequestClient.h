@@ -17,7 +17,7 @@ const static NSString *ResultKey = @"result";//默认的返回的数据中获取
 
 @property (nonatomic,strong)ErrorCodeAnalyzer *errorAnlyzer;//错误码解析器
 @property(nonatomic,strong)AFHTTPSessionManager *manager; //AF请求对象
-@property (nonatomic,readonly,strong)NSMutableDictionary *initParmas;//所有接口都默认传递的参数
+@property (nonatomic,readonly,strong)NSMutableDictionary *defaultParmas;//所有接口都默认传递的参数
 
 //返回结果状态码
 @property (nonatomic,strong)NSString *statusKey;//返回的数据中获取状态的key

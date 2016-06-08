@@ -15,19 +15,19 @@
 		EA78B6C51D07B61E00F501C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6C31D07B61E00F501C0 /* Main.storyboard */; };
 		EA78B6C71D07B61E00F501C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6C61D07B61E00F501C0 /* Assets.xcassets */; };
 		EA78B6CA1D07B61E00F501C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6C81D07B61E00F501C0 /* LaunchScreen.storyboard */; };
-		EA78B6D11D07B75B00F501C0 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6CF1D07B75B00F501C0 /* BaseModel.h */; };
+		EA78B6D11D07B75B00F501C0 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6CF1D07B75B00F501C0 /* BaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6D21D07B75B00F501C0 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6D01D07B75B00F501C0 /* BaseModel.m */; };
-		EA78B6D51D07B79000F501C0 /* BaseRequestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6D31D07B79000F501C0 /* BaseRequestClient.h */; };
+		EA78B6D51D07B79000F501C0 /* BaseRequestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6D31D07B79000F501C0 /* BaseRequestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6D61D07B79000F501C0 /* BaseRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6D41D07B79000F501C0 /* BaseRequestClient.m */; };
-		EA78B6E91D07BBFE00F501C0 /* NSArray+FTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E11D07BBFE00F501C0 /* NSArray+FTArray.h */; };
+		EA78B6E91D07BBFE00F501C0 /* NSArray+FTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E11D07BBFE00F501C0 /* NSArray+FTArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6EA1D07BBFE00F501C0 /* NSArray+FTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E21D07BBFE00F501C0 /* NSArray+FTArray.m */; };
-		EA78B6EB1D07BBFE00F501C0 /* NSDictionary+FTDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E31D07BBFE00F501C0 /* NSDictionary+FTDictionary.h */; };
+		EA78B6EB1D07BBFE00F501C0 /* NSDictionary+FTDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E31D07BBFE00F501C0 /* NSDictionary+FTDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6EC1D07BBFE00F501C0 /* NSDictionary+FTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E41D07BBFE00F501C0 /* NSDictionary+FTDictionary.m */; };
-		EA78B6ED1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E51D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h */; };
+		EA78B6ED1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E51D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6EE1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E61D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.m */; };
-		EA78B6EF1D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E71D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h */; };
+		EA78B6EF1D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E71D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6F01D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E81D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.m */; };
-		EA78B6F71D07BDAF00F501C0 /* ErrorCodeAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6F51D07BDAF00F501C0 /* ErrorCodeAnalyzer.h */; };
+		EA78B6F71D07BDAF00F501C0 /* ErrorCodeAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6F51D07BDAF00F501C0 /* ErrorCodeAnalyzer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6F81D07BDAF00F501C0 /* ErrorCodeAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6F61D07BDAF00F501C0 /* ErrorCodeAnalyzer.m */; };
 		EA78B6FA1D07BFE000F501C0 /* ErrorCodePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6F91D07BFE000F501C0 /* ErrorCodePlist.plist */; };
 /* End PBXBuildFile section */
@@ -209,14 +209,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA78B6E91D07BBFE00F501C0 /* NSArray+FTArray.h in Headers */,
 				EA78B6AD1D07B38100F501C0 /* XY_NetworkClient.h in Headers */,
+				EA78B6D51D07B79000F501C0 /* BaseRequestClient.h in Headers */,
+				EA78B6E91D07BBFE00F501C0 /* NSArray+FTArray.h in Headers */,
 				EA78B6EB1D07BBFE00F501C0 /* NSDictionary+FTDictionary.h in Headers */,
-				EA78B6D11D07B75B00F501C0 /* BaseModel.h in Headers */,
 				EA78B6F71D07BDAF00F501C0 /* ErrorCodeAnalyzer.h in Headers */,
 				EA78B6EF1D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h in Headers */,
-				EA78B6D51D07B79000F501C0 /* BaseRequestClient.h in Headers */,
 				EA78B6ED1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h in Headers */,
+				EA78B6D11D07B75B00F501C0 /* BaseModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +577,7 @@
 				EA78B6CE1D07B61E00F501C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

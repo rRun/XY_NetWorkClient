@@ -14,17 +14,17 @@ const static NSString *CustomErrorDomain = @"com.cdfortis.network";
 @implementation ErrorCodeAnalyzer
 
 #pragma mark - analyze error code
--(void)analyze:(NSString *)plistPath{
+-(void)analyzeFile:(NSString *)plistPath{
     NSDictionary *errorDic = [[NSDictionary alloc] initWithContentsOfFile:plistPath];
     assert(!errorDic);//判断是否错误码字典为空
     self.errorDic = errorDic;
 }
--(void)analyze:(NSDictionary *)codeDic{
+-(void)analyzeDic:(NSDictionary *)codeDic{
     self.errorDic = codeDic;
 }
 
 #pragma mark - packaging error object
--(NSError *)desErrorCode:(NSInteger *)code{
+-(NSError *)desErrorCode:(NSInteger )code{
     NSNumber * codeNum = [NSNumber numberWithInteger:code];
     NSString *codeStr = [codeNum stringValue];
     

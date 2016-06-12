@@ -7,3 +7,4 @@ xcodeproj ‘XY_NetworkClient/XY_NetworkClient.xcodeproj’
 
 
 pod ‘AFNetworking’
+pod ‘XY_NetWorkClient’, :git => ‘https://github.com/rRun/XY_NetWorkClient.git’

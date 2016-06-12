@@ -1,0 +1,20 @@
+{
+  "name": "XY_NetWorkClient",
+  "version": "0.0.1",
+  "summary": "网络封装库［基于AFnetwork］",
+  "description": "",
+  "homepage": "https://github.com/rRun/XY_NetWorkClient",
+  "license": "MIT (example)",
+  "authors": {
+    "何霞雨": "email@address.com"
+  },
+  "source": {
+    "git": "https://github.com/rRun/XY_NetWorkClient.git",
+    "commit": "c0eb27457b63f79f39940e328cf637d7a27d8bda"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude"
+}

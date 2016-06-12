@@ -14,11 +14,23 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - XY_NetWorkClient (0.0.1)
 
 DEPENDENCIES:
   - AFNetworking
+  - XY_NetWorkClient (from `https://github.com/rRun/XY_NetWorkClient.git`)
+
+EXTERNAL SOURCES:
+  XY_NetWorkClient:
+    :git: https://github.com/rRun/XY_NetWorkClient.git
+
+CHECKOUT OPTIONS:
+  XY_NetWorkClient:
+    :commit: e20f7ec586c969a3b188b87fe3bc6207499ff94d
+    :git: https://github.com/rRun/XY_NetWorkClient.git
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  XY_NetWorkClient: 21b5c066897bcf9ed080455a50ad9849db5c0e4a
 
 COCOAPODS: 0.39.0

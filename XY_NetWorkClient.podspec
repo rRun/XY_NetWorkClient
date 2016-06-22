@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    **ft公司网络请求的封装库**
+                    **ft公司网络请求的封装库,网络封装库［基于AFnetwork］**
                    DESC
 
   s.homepage     = "https://github.com/rRun/XY_NetWorkClient"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "XY_NetworkClient/XY_NetworkClient/**/*.{h,m}"
+  s.source_files  = "XY_NetworkClient/XY_NetworkClient/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

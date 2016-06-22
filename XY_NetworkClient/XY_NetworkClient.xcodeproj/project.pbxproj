@@ -33,7 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B608411C617C3B66E1B3C67 /* Pods-XY_NetworkClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_NetworkClient.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-XY_NetworkClient/Pods-XY_NetworkClient.debug.xcconfig"; sourceTree = "<group>"; };
 		6F4562D56F2F686CFE17DAA2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		89BCB2F7A608801B6BAFE30A /* Pods-XY_NetworkClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_NetworkClient.release.xcconfig"; path = "../Pods/Target Support Files/Pods-XY_NetworkClient/Pods-XY_NetworkClient.release.xcconfig"; sourceTree = "<group>"; };
+		C70BA9A5D5B96944B881824D /* libPods-XY_NetworkClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XY_NetworkClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BAEC0562E9AEF216116488 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA78B6A91D07B38000F501C0 /* XY_NetworkClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XY_NetworkClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA78B6AC1D07B38000F501C0 /* XY_NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XY_NetworkClient.h; sourceTree = "<group>"; };
@@ -89,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				E5BAEC0562E9AEF216116488 /* libPods.a */,
+				C70BA9A5D5B96944B881824D /* libPods-XY_NetworkClient.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,6 +102,8 @@
 			children = (
 				EBAEFD5AD65F734CCE359014 /* Pods.debug.xcconfig */,
 				6F4562D56F2F686CFE17DAA2 /* Pods.release.xcconfig */,
+				3B608411C617C3B66E1B3C67 /* Pods-XY_NetworkClient.debug.xcconfig */,
+				89BCB2F7A608801B6BAFE30A /* Pods-XY_NetworkClient.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -227,12 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA78B6B11D07B38100F501C0 /* Build configuration list for PBXNativeTarget "XY_NetworkClient" */;
 			buildPhases = (
-				6DFDF9A627194ECB0869F964 /* Check Pods Manifest.lock */,
+				6DFDF9A627194ECB0869F964 /* [CP] Check Pods Manifest.lock */,
 				EA78B6A41D07B38000F501C0 /* Sources */,
 				EA78B6A51D07B38000F501C0 /* Frameworks */,
 				EA78B6A61D07B38000F501C0 /* Headers */,
 				EA78B6A71D07B38000F501C0 /* Resources */,
-				B4826DC56493D1585145708B /* Copy Pods Resources */,
+				B4826DC56493D1585145708B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,14 +324,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DFDF9A627194ECB0869F964 /* Check Pods Manifest.lock */ = {
+		6DFDF9A627194ECB0869F964 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,19 +339,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		B4826DC56493D1585145708B /* Copy Pods Resources */ = {
+		B4826DC56493D1585145708B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-XY_NetworkClient/Pods-XY_NetworkClient-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -489,7 +495,7 @@
 		};
 		EA78B6B21D07B38100F501C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBAEFD5AD65F734CCE359014 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 3B608411C617C3B66E1B3C67 /* Pods-XY_NetworkClient.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -508,7 +514,7 @@
 		};
 		EA78B6B31D07B38100F501C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F4562D56F2F686CFE17DAA2 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 89BCB2F7A608801B6BAFE30A /* Pods-XY_NetworkClient.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

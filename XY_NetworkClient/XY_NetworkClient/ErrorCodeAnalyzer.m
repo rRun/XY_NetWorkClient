@@ -9,7 +9,7 @@
 #import "ErrorCodeAnalyzer.h"
 #import "NSDictionary+FTDictionary.h"
 
-const static NSString *CustomErrorDomain = @"com.cdfortis.network";
+static NSString *CustomErrorDomain = @"com.cdfortis.network";
 
 @implementation ErrorCodeAnalyzer
 

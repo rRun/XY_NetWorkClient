@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "ErrorCodeAnalyzer.h"
 
-const static NSString *StatuCodeKey = @"resultCode";//默认的返回的数据中获取状态的key
-const static NSString *ResultKey = @"result";//默认的返回的数据中获取结果的key
+static NSString *StatuCodeKey = @"resultCode";//默认的返回的数据中获取状态的key
+static NSString *ResultKey = @"result";//默认的返回的数据中获取结果的key
 
 @class AFHTTPSessionManager;
 @interface BaseRequestClient : NSObject

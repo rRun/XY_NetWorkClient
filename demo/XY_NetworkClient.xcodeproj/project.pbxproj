@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0FAC421D1AA9DE002EE8C1 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC311D1AA9DE002EE8C1 /* BaseModel.h */; };
+		EA0FAC431D1AA9DE002EE8C1 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC321D1AA9DE002EE8C1 /* BaseModel.m */; };
+		EA0FAC441D1AA9DE002EE8C1 /* BaseRequestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC331D1AA9DE002EE8C1 /* BaseRequestClient.h */; };
+		EA0FAC451D1AA9DE002EE8C1 /* BaseRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC341D1AA9DE002EE8C1 /* BaseRequestClient.m */; };
+		EA0FAC461D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC351D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h */; };
+		EA0FAC471D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC361D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m */; };
+		EA0FAC481D1AA9DE002EE8C1 /* ErrorCodePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA0FAC371D1AA9DE002EE8C1 /* ErrorCodePlist.plist */; };
+		EA0FAC491D1AA9DE002EE8C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA0FAC381D1AA9DE002EE8C1 /* Info.plist */; };
+		EA0FAC4A1D1AA9DE002EE8C1 /* NSArray+FTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC391D1AA9DE002EE8C1 /* NSArray+FTArray.h */; };
+		EA0FAC4B1D1AA9DE002EE8C1 /* NSArray+FTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC3A1D1AA9DE002EE8C1 /* NSArray+FTArray.m */; };
+		EA0FAC4C1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC3B1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h */; };
+		EA0FAC4D1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC3C1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.m */; };
+		EA0FAC4E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC3D1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.h */; };
+		EA0FAC4F1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC3E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m */; };
+		EA0FAC501D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */; };
+		EA0FAC511D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */; };
+		EA0FAC521D1AA9DE002EE8C1 /* XY_NetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */; };
 		EA2A08D31D1AA18B0092AB0B /* libPods-XY_NetworkClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C70BA9A5D5B96944B881824D /* libPods-XY_NetworkClient.a */; };
-		EA78B6AD1D07B38100F501C0 /* XY_NetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6AC1D07B38000F501C0 /* XY_NetworkClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA78B6BC1D07B61E00F501C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6BB1D07B61E00F501C0 /* main.m */; };
 		EA78B6BF1D07B61E00F501C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6BE1D07B61E00F501C0 /* AppDelegate.m */; };
 		EA78B6C21D07B61E00F501C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6C11D07B61E00F501C0 /* ViewController.m */; };
 		EA78B6C51D07B61E00F501C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6C31D07B61E00F501C0 /* Main.storyboard */; };
 		EA78B6C71D07B61E00F501C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6C61D07B61E00F501C0 /* Assets.xcassets */; };
 		EA78B6CA1D07B61E00F501C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6C81D07B61E00F501C0 /* LaunchScreen.storyboard */; };
-		EA78B6D11D07B75B00F501C0 /* BaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6CF1D07B75B00F501C0 /* BaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78B6D21D07B75B00F501C0 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6D01D07B75B00F501C0 /* BaseModel.m */; };
-		EA78B6D51D07B79000F501C0 /* BaseRequestClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6D31D07B79000F501C0 /* BaseRequestClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78B6D61D07B79000F501C0 /* BaseRequestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6D41D07B79000F501C0 /* BaseRequestClient.m */; };
-		EA78B6E91D07BBFE00F501C0 /* NSArray+FTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E11D07BBFE00F501C0 /* NSArray+FTArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78B6EA1D07BBFE00F501C0 /* NSArray+FTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E21D07BBFE00F501C0 /* NSArray+FTArray.m */; };
-		EA78B6EB1D07BBFE00F501C0 /* NSDictionary+FTDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E31D07BBFE00F501C0 /* NSDictionary+FTDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78B6EC1D07BBFE00F501C0 /* NSDictionary+FTDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E41D07BBFE00F501C0 /* NSDictionary+FTDictionary.m */; };
-		EA78B6ED1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E51D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78B6EE1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E61D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.m */; };
-		EA78B6EF1D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6E71D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78B6F01D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6E81D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.m */; };
-		EA78B6F71D07BDAF00F501C0 /* ErrorCodeAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA78B6F51D07BDAF00F501C0 /* ErrorCodeAnalyzer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA78B6F81D07BDAF00F501C0 /* ErrorCodeAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6F61D07BDAF00F501C0 /* ErrorCodeAnalyzer.m */; };
-		EA78B6FA1D07BFE000F501C0 /* ErrorCodePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6F91D07BFE000F501C0 /* ErrorCodePlist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +38,25 @@
 		6F4562D56F2F686CFE17DAA2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		89BCB2F7A608801B6BAFE30A /* Pods-XY_NetworkClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XY_NetworkClient.release.xcconfig"; path = "../Pods/Target Support Files/Pods-XY_NetworkClient/Pods-XY_NetworkClient.release.xcconfig"; sourceTree = "<group>"; };
 		C70BA9A5D5B96944B881824D /* libPods-XY_NetworkClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XY_NetworkClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0FAC311D1AA9DE002EE8C1 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseModel.h; path = ../XY_NetworkClient/BaseModel.h; sourceTree = "<group>"; };
+		EA0FAC321D1AA9DE002EE8C1 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseModel.m; path = ../XY_NetworkClient/BaseModel.m; sourceTree = "<group>"; };
+		EA0FAC331D1AA9DE002EE8C1 /* BaseRequestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseRequestClient.h; path = ../XY_NetworkClient/BaseRequestClient.h; sourceTree = "<group>"; };
+		EA0FAC341D1AA9DE002EE8C1 /* BaseRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseRequestClient.m; path = ../XY_NetworkClient/BaseRequestClient.m; sourceTree = "<group>"; };
+		EA0FAC351D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorCodeAnalyzer.h; path = ../XY_NetworkClient/ErrorCodeAnalyzer.h; sourceTree = "<group>"; };
+		EA0FAC361D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorCodeAnalyzer.m; path = ../XY_NetworkClient/ErrorCodeAnalyzer.m; sourceTree = "<group>"; };
+		EA0FAC371D1AA9DE002EE8C1 /* ErrorCodePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ErrorCodePlist.plist; path = ../XY_NetworkClient/ErrorCodePlist.plist; sourceTree = "<group>"; };
+		EA0FAC381D1AA9DE002EE8C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../XY_NetworkClient/Info.plist; sourceTree = "<group>"; };
+		EA0FAC391D1AA9DE002EE8C1 /* NSArray+FTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+FTArray.h"; path = "../XY_NetworkClient/NSArray+FTArray.h"; sourceTree = "<group>"; };
+		EA0FAC3A1D1AA9DE002EE8C1 /* NSArray+FTArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FTArray.m"; path = "../XY_NetworkClient/NSArray+FTArray.m"; sourceTree = "<group>"; };
+		EA0FAC3B1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FTDictionary.h"; path = "../XY_NetworkClient/NSDictionary+FTDictionary.h"; sourceTree = "<group>"; };
+		EA0FAC3C1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+FTDictionary.m"; path = "../XY_NetworkClient/NSDictionary+FTDictionary.m"; sourceTree = "<group>"; };
+		EA0FAC3D1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+FTMutableArray.h"; path = "../XY_NetworkClient/NSMutableArray+FTMutableArray.h"; sourceTree = "<group>"; };
+		EA0FAC3E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+FTMutableArray.m"; path = "../XY_NetworkClient/NSMutableArray+FTMutableArray.m"; sourceTree = "<group>"; };
+		EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+FTMutableDictionary.h"; path = "../XY_NetworkClient/NSMutableDictionary+FTMutableDictionary.h"; sourceTree = "<group>"; };
+		EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+FTMutableDictionary.m"; path = "../XY_NetworkClient/NSMutableDictionary+FTMutableDictionary.m"; sourceTree = "<group>"; };
+		EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XY_NetworkClient.h; path = ../XY_NetworkClient/XY_NetworkClient.h; sourceTree = "<group>"; };
 		EA2A08D41D1AA18B0092AB0B /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../../../Users/hexiayu/Library/Developer/Xcode/DerivedData/XY_NetWorkClient-cjqpeqanrqvvppaqmfyoubtvzndq/Build/Products/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		EA78B6A91D07B38000F501C0 /* XY_NetworkClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XY_NetworkClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA78B6AC1D07B38000F501C0 /* XY_NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XY_NetworkClient.h; sourceTree = "<group>"; };
-		EA78B6AE1D07B38100F501C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA78B6B81D07B61E00F501C0 /* testDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA78B6BB1D07B61E00F501C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA78B6BD1D07B61E00F501C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,21 +67,6 @@
 		EA78B6C61D07B61E00F501C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA78B6C91D07B61E00F501C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA78B6CB1D07B61E00F501C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA78B6CF1D07B75B00F501C0 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
-		EA78B6D01D07B75B00F501C0 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
-		EA78B6D31D07B79000F501C0 /* BaseRequestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequestClient.h; sourceTree = "<group>"; };
-		EA78B6D41D07B79000F501C0 /* BaseRequestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequestClient.m; sourceTree = "<group>"; };
-		EA78B6E11D07BBFE00F501C0 /* NSArray+FTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FTArray.h"; sourceTree = "<group>"; };
-		EA78B6E21D07BBFE00F501C0 /* NSArray+FTArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FTArray.m"; sourceTree = "<group>"; };
-		EA78B6E31D07BBFE00F501C0 /* NSDictionary+FTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FTDictionary.h"; sourceTree = "<group>"; };
-		EA78B6E41D07BBFE00F501C0 /* NSDictionary+FTDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FTDictionary.m"; sourceTree = "<group>"; };
-		EA78B6E51D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+FTMutableArray.h"; sourceTree = "<group>"; };
-		EA78B6E61D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+FTMutableArray.m"; sourceTree = "<group>"; };
-		EA78B6E71D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+FTMutableDictionary.h"; sourceTree = "<group>"; };
-		EA78B6E81D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+FTMutableDictionary.m"; sourceTree = "<group>"; };
-		EA78B6F51D07BDAF00F501C0 /* ErrorCodeAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCodeAnalyzer.h; sourceTree = "<group>"; };
-		EA78B6F61D07BDAF00F501C0 /* ErrorCodeAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorCodeAnalyzer.m; sourceTree = "<group>"; };
-		EA78B6F91D07BFE000F501C0 /* ErrorCodePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ErrorCodePlist.plist; sourceTree = "<group>"; };
 		EBAEFD5AD65F734CCE359014 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,11 +109,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EA0FAC301D1AA9D3002EE8C1 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EA0FAC311D1AA9DE002EE8C1 /* BaseModel.h */,
+				EA0FAC321D1AA9DE002EE8C1 /* BaseModel.m */,
+				EA0FAC331D1AA9DE002EE8C1 /* BaseRequestClient.h */,
+				EA0FAC341D1AA9DE002EE8C1 /* BaseRequestClient.m */,
+				EA0FAC351D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h */,
+				EA0FAC361D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m */,
+				EA0FAC371D1AA9DE002EE8C1 /* ErrorCodePlist.plist */,
+				EA0FAC381D1AA9DE002EE8C1 /* Info.plist */,
+				EA0FAC391D1AA9DE002EE8C1 /* NSArray+FTArray.h */,
+				EA0FAC3A1D1AA9DE002EE8C1 /* NSArray+FTArray.m */,
+				EA0FAC3B1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h */,
+				EA0FAC3C1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.m */,
+				EA0FAC3D1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.h */,
+				EA0FAC3E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m */,
+				EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */,
+				EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */,
+				EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
 		EA78B69F1D07B38000F501C0 = {
 			isa = PBXGroup;
 			children = (
+				EA0FAC301D1AA9D3002EE8C1 /* Lib */,
 				EA78B6B91D07B61E00F501C0 /* testDemo */,
-				EA78B6AB1D07B38000F501C0 /* XY_NetworkClient */,
 				EA78B6AA1D07B38000F501C0 /* Products */,
 				C3718061E22EBF45474716E6 /* Pods */,
 				4A62FDCB63D5A28818867828 /* Frameworks */,
@@ -126,18 +151,6 @@
 				EA78B6B81D07B61E00F501C0 /* testDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EA78B6AB1D07B38000F501C0 /* XY_NetworkClient */ = {
-			isa = PBXGroup;
-			children = (
-				EA78B6AC1D07B38000F501C0 /* XY_NetworkClient.h */,
-				EA78B6DB1D07B8EE00F501C0 /* Class */,
-				EA78B6D91D07B85C00F501C0 /* Model */,
-				EA78B6E01D07BBBF00F501C0 /* Tool */,
-				EA78B6DA1D07B86900F501C0 /* Resource */,
-			);
-			path = XY_NetworkClient;
 			sourceTree = "<group>";
 		};
 		EA78B6B91D07B61E00F501C0 /* testDemo */ = {
@@ -164,50 +177,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EA78B6D91D07B85C00F501C0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				EA78B6CF1D07B75B00F501C0 /* BaseModel.h */,
-				EA78B6D01D07B75B00F501C0 /* BaseModel.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		EA78B6DA1D07B86900F501C0 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				EA78B6F91D07BFE000F501C0 /* ErrorCodePlist.plist */,
-				EA78B6AE1D07B38100F501C0 /* Info.plist */,
-			);
-			name = Resource;
-			sourceTree = "<group>";
-		};
-		EA78B6DB1D07B8EE00F501C0 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				EA78B6D31D07B79000F501C0 /* BaseRequestClient.h */,
-				EA78B6D41D07B79000F501C0 /* BaseRequestClient.m */,
-				EA78B6F51D07BDAF00F501C0 /* ErrorCodeAnalyzer.h */,
-				EA78B6F61D07BDAF00F501C0 /* ErrorCodeAnalyzer.m */,
-			);
-			name = Class;
-			sourceTree = "<group>";
-		};
-		EA78B6E01D07BBBF00F501C0 /* Tool */ = {
-			isa = PBXGroup;
-			children = (
-				EA78B6E11D07BBFE00F501C0 /* NSArray+FTArray.h */,
-				EA78B6E21D07BBFE00F501C0 /* NSArray+FTArray.m */,
-				EA78B6E31D07BBFE00F501C0 /* NSDictionary+FTDictionary.h */,
-				EA78B6E41D07BBFE00F501C0 /* NSDictionary+FTDictionary.m */,
-				EA78B6E51D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h */,
-				EA78B6E61D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.m */,
-				EA78B6E71D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h */,
-				EA78B6E81D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.m */,
-			);
-			name = Tool;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -215,14 +184,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA78B6AD1D07B38100F501C0 /* XY_NetworkClient.h in Headers */,
-				EA78B6D51D07B79000F501C0 /* BaseRequestClient.h in Headers */,
-				EA78B6E91D07BBFE00F501C0 /* NSArray+FTArray.h in Headers */,
-				EA78B6EB1D07BBFE00F501C0 /* NSDictionary+FTDictionary.h in Headers */,
-				EA78B6F71D07BDAF00F501C0 /* ErrorCodeAnalyzer.h in Headers */,
-				EA78B6EF1D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.h in Headers */,
-				EA78B6ED1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.h in Headers */,
-				EA78B6D11D07B75B00F501C0 /* BaseModel.h in Headers */,
+				EA0FAC4C1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h in Headers */,
+				EA0FAC521D1AA9DE002EE8C1 /* XY_NetworkClient.h in Headers */,
+				EA0FAC4E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.h in Headers */,
+				EA0FAC501D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h in Headers */,
+				EA0FAC441D1AA9DE002EE8C1 /* BaseRequestClient.h in Headers */,
+				EA0FAC461D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h in Headers */,
+				EA0FAC421D1AA9DE002EE8C1 /* BaseModel.h in Headers */,
+				EA0FAC4A1D1AA9DE002EE8C1 /* NSArray+FTArray.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA78B6FA1D07BFE000F501C0 /* ErrorCodePlist.plist in Resources */,
+				EA0FAC491D1AA9DE002EE8C1 /* Info.plist in Resources */,
+				EA0FAC481D1AA9DE002EE8C1 /* ErrorCodePlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,13 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA78B6F81D07BDAF00F501C0 /* ErrorCodeAnalyzer.m in Sources */,
-				EA78B6EC1D07BBFE00F501C0 /* NSDictionary+FTDictionary.m in Sources */,
-				EA78B6EA1D07BBFE00F501C0 /* NSArray+FTArray.m in Sources */,
-				EA78B6D21D07B75B00F501C0 /* BaseModel.m in Sources */,
-				EA78B6EE1D07BBFE00F501C0 /* NSMutableArray+FTMutableArray.m in Sources */,
-				EA78B6F01D07BBFE00F501C0 /* NSMutableDictionary+FTMutableDictionary.m in Sources */,
-				EA78B6D61D07B79000F501C0 /* BaseRequestClient.m in Sources */,
+				EA0FAC4D1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.m in Sources */,
+				EA0FAC4B1D1AA9DE002EE8C1 /* NSArray+FTArray.m in Sources */,
+				EA0FAC431D1AA9DE002EE8C1 /* BaseModel.m in Sources */,
+				EA0FAC471D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m in Sources */,
+				EA0FAC4F1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m in Sources */,
+				EA0FAC511D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m in Sources */,
+				EA0FAC451D1AA9DE002EE8C1 /* BaseRequestClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -3,7 +3,7 @@
 platform :ios,‘7.0‘
 
 workspace ‘XY_NetWorkClient’
-xcodeproj ‘XY_NetworkClient/XY_NetworkClient.xcodeproj’
+xcodeproj ‘demo/XY_NetworkClient.xcodeproj’
 
 target “XY_NetworkClient” do
     pod ‘AFNetworking’

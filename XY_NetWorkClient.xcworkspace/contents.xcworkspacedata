@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:XY_NetworkClient/XY_NetworkClient.xcodeproj">
+      location = "group:demo/XY_NetworkClient.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

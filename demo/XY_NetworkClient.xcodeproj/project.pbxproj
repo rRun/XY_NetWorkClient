@@ -14,7 +14,6 @@
 		EA0FAC461D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC351D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h */; };
 		EA0FAC471D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC361D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m */; };
 		EA0FAC481D1AA9DE002EE8C1 /* ErrorCodePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA0FAC371D1AA9DE002EE8C1 /* ErrorCodePlist.plist */; };
-		EA0FAC491D1AA9DE002EE8C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA0FAC381D1AA9DE002EE8C1 /* Info.plist */; };
 		EA0FAC4A1D1AA9DE002EE8C1 /* NSArray+FTArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC391D1AA9DE002EE8C1 /* NSArray+FTArray.h */; };
 		EA0FAC4B1D1AA9DE002EE8C1 /* NSArray+FTArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC3A1D1AA9DE002EE8C1 /* NSArray+FTArray.m */; };
 		EA0FAC4C1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC3B1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h */; };
@@ -24,6 +23,7 @@
 		EA0FAC501D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */; };
 		EA0FAC511D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */; };
 		EA0FAC521D1AA9DE002EE8C1 /* XY_NetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */; };
+		EA0FAC561D1AAB5B002EE8C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6CB1D07B61E00F501C0 /* Info.plist */; };
 		EA2A08D31D1AA18B0092AB0B /* libPods-XY_NetworkClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C70BA9A5D5B96944B881824D /* libPods-XY_NetworkClient.a */; };
 		EA78B6BC1D07B61E00F501C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6BB1D07B61E00F501C0 /* main.m */; };
 		EA78B6BF1D07B61E00F501C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6BE1D07B61E00F501C0 /* AppDelegate.m */; };
@@ -45,7 +45,6 @@
 		EA0FAC351D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorCodeAnalyzer.h; path = ../XY_NetworkClient/ErrorCodeAnalyzer.h; sourceTree = "<group>"; };
 		EA0FAC361D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorCodeAnalyzer.m; path = ../XY_NetworkClient/ErrorCodeAnalyzer.m; sourceTree = "<group>"; };
 		EA0FAC371D1AA9DE002EE8C1 /* ErrorCodePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ErrorCodePlist.plist; path = ../XY_NetworkClient/ErrorCodePlist.plist; sourceTree = "<group>"; };
-		EA0FAC381D1AA9DE002EE8C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../XY_NetworkClient/Info.plist; sourceTree = "<group>"; };
 		EA0FAC391D1AA9DE002EE8C1 /* NSArray+FTArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+FTArray.h"; path = "../XY_NetworkClient/NSArray+FTArray.h"; sourceTree = "<group>"; };
 		EA0FAC3A1D1AA9DE002EE8C1 /* NSArray+FTArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FTArray.m"; path = "../XY_NetworkClient/NSArray+FTArray.m"; sourceTree = "<group>"; };
 		EA0FAC3B1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+FTDictionary.h"; path = "../XY_NetworkClient/NSDictionary+FTDictionary.h"; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+FTMutableDictionary.h"; path = "../XY_NetworkClient/NSMutableDictionary+FTMutableDictionary.h"; sourceTree = "<group>"; };
 		EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+FTMutableDictionary.m"; path = "../XY_NetworkClient/NSMutableDictionary+FTMutableDictionary.m"; sourceTree = "<group>"; };
 		EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XY_NetworkClient.h; path = ../XY_NetworkClient/XY_NetworkClient.h; sourceTree = "<group>"; };
+		EA0FAC581D1AABB0002EE8C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = testDemo/Lib/Info.plist; sourceTree = "<group>"; };
 		EA2A08D41D1AA18B0092AB0B /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../../../Users/hexiayu/Library/Developer/Xcode/DerivedData/XY_NetWorkClient-cjqpeqanrqvvppaqmfyoubtvzndq/Build/Products/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		EA78B6A91D07B38000F501C0 /* XY_NetworkClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XY_NetworkClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA78B6B81D07B61E00F501C0 /* testDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +112,7 @@
 		EA0FAC301D1AA9D3002EE8C1 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				EA0FAC581D1AABB0002EE8C1 /* Info.plist */,
 				EA0FAC311D1AA9DE002EE8C1 /* BaseModel.h */,
 				EA0FAC321D1AA9DE002EE8C1 /* BaseModel.m */,
 				EA0FAC331D1AA9DE002EE8C1 /* BaseRequestClient.h */,
@@ -119,7 +120,6 @@
 				EA0FAC351D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.h */,
 				EA0FAC361D1AA9DE002EE8C1 /* ErrorCodeAnalyzer.m */,
 				EA0FAC371D1AA9DE002EE8C1 /* ErrorCodePlist.plist */,
-				EA0FAC381D1AA9DE002EE8C1 /* Info.plist */,
 				EA0FAC391D1AA9DE002EE8C1 /* NSArray+FTArray.h */,
 				EA0FAC3A1D1AA9DE002EE8C1 /* NSArray+FTArray.m */,
 				EA0FAC3B1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h */,
@@ -276,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA0FAC491D1AA9DE002EE8C1 /* Info.plist in Resources */,
 				EA0FAC481D1AA9DE002EE8C1 /* ErrorCodePlist.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA0FAC561D1AAB5B002EE8C1 /* Info.plist in Resources */,
 				EA78B6CA1D07B61E00F501C0 /* LaunchScreen.storyboard in Resources */,
 				EA78B6C71D07B61E00F501C0 /* Assets.xcassets in Resources */,
 				EA78B6C51D07B61E00F501C0 /* Main.storyboard in Resources */,
@@ -471,7 +471,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = XY_NetworkClient/Info.plist;
+				INFOPLIST_FILE = testDemo/Lib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -490,7 +490,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = XY_NetworkClient/Info.plist;
+				INFOPLIST_FILE = testDemo/Lib/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

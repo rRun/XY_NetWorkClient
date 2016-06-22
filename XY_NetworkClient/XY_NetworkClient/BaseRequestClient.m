@@ -8,7 +8,7 @@
 
 #import "BaseRequestClient.h"
 
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 #import "NSMutableDictionary+FTMutableDictionary.h"
 #import "NSDictionary+FTDictionary.h"

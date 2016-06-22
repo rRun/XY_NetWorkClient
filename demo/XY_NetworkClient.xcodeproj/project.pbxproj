@@ -22,7 +22,6 @@
 		EA0FAC4F1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC3E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m */; };
 		EA0FAC501D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */; };
 		EA0FAC511D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */; };
-		EA0FAC521D1AA9DE002EE8C1 /* XY_NetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */; };
 		EA0FAC561D1AAB5B002EE8C1 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA78B6CB1D07B61E00F501C0 /* Info.plist */; };
 		EA2A08D31D1AA18B0092AB0B /* libPods-XY_NetworkClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C70BA9A5D5B96944B881824D /* libPods-XY_NetworkClient.a */; };
 		EA78B6BC1D07B61E00F501C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78B6BB1D07B61E00F501C0 /* main.m */; };
@@ -53,7 +52,6 @@
 		EA0FAC3E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+FTMutableArray.m"; path = "../XY_NetworkClient/NSMutableArray+FTMutableArray.m"; sourceTree = "<group>"; };
 		EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+FTMutableDictionary.h"; path = "../XY_NetworkClient/NSMutableDictionary+FTMutableDictionary.h"; sourceTree = "<group>"; };
 		EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+FTMutableDictionary.m"; path = "../XY_NetworkClient/NSMutableDictionary+FTMutableDictionary.m"; sourceTree = "<group>"; };
-		EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XY_NetworkClient.h; path = ../XY_NetworkClient/XY_NetworkClient.h; sourceTree = "<group>"; };
 		EA0FAC581D1AABB0002EE8C1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = testDemo/Lib/Info.plist; sourceTree = "<group>"; };
 		EA2A08D41D1AA18B0092AB0B /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../../../Users/hexiayu/Library/Developer/Xcode/DerivedData/XY_NetWorkClient-cjqpeqanrqvvppaqmfyoubtvzndq/Build/Products/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
 		EA78B6A91D07B38000F501C0 /* XY_NetworkClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XY_NetworkClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +126,6 @@
 				EA0FAC3E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.m */,
 				EA0FAC3F1D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h */,
 				EA0FAC401D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.m */,
-				EA0FAC411D1AA9DE002EE8C1 /* XY_NetworkClient.h */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -185,7 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA0FAC4C1D1AA9DE002EE8C1 /* NSDictionary+FTDictionary.h in Headers */,
-				EA0FAC521D1AA9DE002EE8C1 /* XY_NetworkClient.h in Headers */,
 				EA0FAC4E1D1AA9DE002EE8C1 /* NSMutableArray+FTMutableArray.h in Headers */,
 				EA0FAC501D1AA9DE002EE8C1 /* NSMutableDictionary+FTMutableDictionary.h in Headers */,
 				EA0FAC441D1AA9DE002EE8C1 /* BaseRequestClient.h in Headers */,

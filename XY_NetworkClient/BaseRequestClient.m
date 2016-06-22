@@ -151,7 +151,7 @@
     [postParmas setObject:fileName forKey:@"fileName"];
     
     //网络请求
-    NSURLSessionDataTask *currentTask =[self.manager POST:url parameters:postParmas constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    __block NSURLSessionDataTask *currentTask =[self.manager POST:url parameters:postParmas constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         
         [formData appendPartWithFileData:data name:fileKey fileName:fileName mimeType:mimeType];
     } progress:^(NSProgress * _Nonnull uploadProgress) {

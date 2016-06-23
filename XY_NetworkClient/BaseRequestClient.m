@@ -84,12 +84,12 @@
     NSLog(@"网络请求参数为:%@",postParmas);
     
     //网络请求
-    NSURLSessionDataTask *currentTask = [self.manager POST:url parameters:postParmas constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+    __block NSURLSessionDataTask *currentTask = [self.manager POST:url parameters:postParmas constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         //mutilpart 数据
     } progress:^(NSProgress * _Nonnull uploadProgress) {
         //一般网络请求不需要进度
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        if (currentTask.state == NSURLSessionTaskStateCanceling) {
+        if (task.state == NSURLSessionTaskStateCanceling) {
             return ;
         }
         NSLog(@"网络请求成功:%@",responseObject);
@@ -112,7 +112,7 @@
             });
         }
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        if (currentTask.state == NSURLSessionTaskStateCanceling) {
+        if (task.state == NSURLSessionTaskStateCanceling) {
             return ;
         }
         [requestDic removeObjectForKey:url];//移除对应的task
@@ -157,7 +157,7 @@
     } progress:^(NSProgress * _Nonnull uploadProgress) {
         progresscall(uploadProgress);
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        if (currentTask.state == NSURLSessionTaskStateCanceling) {
+        if (task.state == NSURLSessionTaskStateCanceling) {
             return ;
         }
         [requestDic removeObjectForKey:url];//移除对应的task
@@ -184,7 +184,7 @@
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         NSLog(@"网络请求失败:%@",[error localizedDescription]);
         
-        if (currentTask.state == NSURLSessionTaskStateCanceling) {
+        if (task.state == NSURLSessionTaskStateCanceling) {
             return ;
         }
         [requestDic removeObjectForKey:url];//移除对应的task

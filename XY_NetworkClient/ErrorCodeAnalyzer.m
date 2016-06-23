@@ -35,7 +35,7 @@ static NSString *CustomErrorDomain = @"com.cdfortis.network";
     }
     NSDictionary *userInfo = [NSDictionary dictionaryWithObject:ErrorValue forKey:NSLocalizedDescriptionKey];
     NSError *error=[NSError errorWithDomain:CustomErrorDomain code:code userInfo:userInfo];
-     NSLog(@"网络请求失败，错误码%d,错误信息:%@",code,ErrorValue);
+     NSLog(@"网络请求失败，错误码%ld,错误信息:%@",(long)code,ErrorValue);
     
     return error;
 

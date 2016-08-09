@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <XY_NetworkClient.h>
+#import "BaseRequestClient.h"
 @interface AppDelegate ()
 
 @end

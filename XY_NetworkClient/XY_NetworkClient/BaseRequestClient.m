@@ -8,7 +8,7 @@
 
 #import "BaseRequestClient.h"
 
-#import <AFNetworking.h>
+#import "AFNetworking.h"
 
 #import "NSMutableDictionary+FTMutableDictionary.h"
 #import "NSDictionary+FTDictionary.h"
@@ -104,7 +104,7 @@
         }else{
             NSError *error = [self.errorAnlyzer desErrorCode:statusCode];
             if (!error) {
-                error = [NSError alloc]initWithDomain:@"com.xy_network.www" code:-1 userInfo:nil;
+                error = [[NSError alloc]initWithDomain:@"com.xy_network.www" code:-1 userInfo:nil];
             }
             NSLog(@"网络请求失败:%@",error);
             dispatch_async(dispatch_get_main_queue(), ^{

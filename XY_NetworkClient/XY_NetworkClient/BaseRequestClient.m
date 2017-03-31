@@ -80,7 +80,7 @@
     
     //参数设置
     NSMutableDictionary *postParmas= [[NSMutableDictionary alloc]initWithDictionary:params];
-    [postParmas setDictionary:self.defaultParmas];
+    [postParmas addEntriesFromDictionary:self.defaultParmas];
     NSLog(@"网络请求参数为:%@",postParmas);
     
     //网络请求
@@ -104,9 +104,9 @@
         }else{
             NSError *error = [self.errorAnlyzer desErrorCode:statusCode];
             if (!error) {
-                error = [NSError new];
+                error = [NSError alloc]initWithDomain:@"com.xy_network.www" code:-1 userInfo:nil;
             }
-            NSLog(@"网络请求失败:%@",[error localizedDescription]);
+            NSLog(@"网络请求失败:%@",error);
             dispatch_async(dispatch_get_main_queue(), ^{
                 failure(error);
             });

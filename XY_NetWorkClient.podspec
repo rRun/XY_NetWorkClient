@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "XY_NetWorkClient"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "网络封装库［基于AFnetwork］"
 
   # This description is used to generate tags and improve search results.

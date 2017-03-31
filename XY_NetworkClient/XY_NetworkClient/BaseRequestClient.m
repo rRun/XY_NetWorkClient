@@ -95,7 +95,7 @@
         NSLog(@"网络请求成功:%@",responseObject);
         [requestDic removeObjectForKey:url];//移除对应的task
         
-        NSInteger statusCode = [responseObject ft_numberForKey:self.statusKey];
+        NSInteger statusCode = [[responseObject ft_numberForKey:self.statusKey] integerValue];
         if (statusCode == self.rightCode) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 success(responseObject);
@@ -162,7 +162,7 @@
         }
         [requestDic removeObjectForKey:url];//移除对应的task
         
-        NSInteger statusCode = [responseObject ft_numberForKey:self.statusKey];
+        NSInteger statusCode = [[responseObject ft_numberForKey:self.statusKey] integerValue];
         if (statusCode == self.rightCode) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 success(responseObject);
